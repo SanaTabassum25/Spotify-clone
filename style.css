@@ -14,8 +14,8 @@ body{
 }
 header{
     position: relative;
-    width: 85%;
-    height: 90%;
+    width: 95%;
+    height: 95%;
     border: 1px solid #000000;
     display: flex;
     flex-wrap: wrap;
@@ -302,7 +302,7 @@ header .master_play .bar input{
     top: -7px;
     left: 0;
     cursor: pointer;
-    z-index: 10;
+    z-index: 9999999999999999999999999999999999999999;
     opacity: 0;
 
 }
@@ -326,7 +326,7 @@ header .master_play .vol input{
     top: -5px;
     left: 0;
     cursor: pointer;
-    z-index: 10;
+    z-index: 99999999999999999999999999999999999999;
     opacity: 0;
 }
 header .master_play .vol .vol_bar{
